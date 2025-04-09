@@ -55,8 +55,8 @@
             this.btnRaiz = new System.Windows.Forms.Button();
             this.btnSin = new System.Windows.Forms.Button();
             this.btnCE = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtRespu = new System.Windows.Forms.TextBox();
+            this.txtOpe = new System.Windows.Forms.TextBox();
             this.btnC = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -92,8 +92,8 @@
             this.panel1.Controls.Add(this.btnRaiz);
             this.panel1.Controls.Add(this.btnSin);
             this.panel1.Controls.Add(this.btnCE);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtRespu);
+            this.panel1.Controls.Add(this.txtOpe);
             this.panel1.Controls.Add(this.btnC);
             this.panel1.Location = new System.Drawing.Point(220, 25);
             this.panel1.Name = "panel1";
@@ -412,21 +412,21 @@
             this.btnCE.Text = "CE";
             this.btnCE.UseVisualStyleBackColor = false;
             // 
-            // textBox2
+            // txtRespu
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(30, 62);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(350, 41);
-            this.textBox2.TabIndex = 2;
+            this.txtRespu.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRespu.Location = new System.Drawing.Point(30, 62);
+            this.txtRespu.Name = "txtRespu";
+            this.txtRespu.Size = new System.Drawing.Size(350, 41);
+            this.txtRespu.TabIndex = 2;
             // 
-            // textBox1
+            // txtOpe
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(30, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(350, 41);
-            this.textBox1.TabIndex = 1;
+            this.txtOpe.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOpe.Location = new System.Drawing.Point(30, 21);
+            this.txtOpe.Name = "txtOpe";
+            this.txtOpe.Size = new System.Drawing.Size(350, 41);
+            this.txtOpe.TabIndex = 1;
             // 
             // btnC
             // 
@@ -468,8 +468,8 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtRespu;
+        private System.Windows.Forms.TextBox txtOpe;
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnCamara;
