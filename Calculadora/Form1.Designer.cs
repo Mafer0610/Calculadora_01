@@ -123,6 +123,7 @@
             this.btnAudio.TabIndex = 27;
             this.btnAudio.Text = "Voz";
             this.btnAudio.UseVisualStyleBackColor = false;
+            this.btnAudio.Click += new System.EventHandler(this.BtnAudio_Click);
             // 
             // btnIgual
             // 
@@ -135,6 +136,7 @@
             this.btnIgual.TabIndex = 26;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = false;
+            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
             // 
             // btnMas
             // 
@@ -251,7 +253,7 @@
             this.btnMultiplicar.TabIndex = 17;
             this.btnMultiplicar.Text = "*";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
-            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplica_Click);
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMulti_Click);
             // 
             // btn6
             // 
@@ -303,6 +305,7 @@
             this.btnDividir.TabIndex = 13;
             this.btnDividir.Text = "/";
             this.btnDividir.UseVisualStyleBackColor = false;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
             // 
             // btn9
             // 
@@ -380,7 +383,7 @@
             this.btnRParen.TabIndex = 7;
             this.btnRParen.Text = ")";
             this.btnRParen.UseVisualStyleBackColor = false;
-            this.btnRParen.Click += new System.EventHandler(this.btnRParen_Click);
+            this.btnRParen.Click += new System.EventHandler(this.btnCiPa_Click);
             // 
             // btnLParen
             // 
@@ -393,7 +396,7 @@
             this.btnLParen.TabIndex = 6;
             this.btnLParen.Text = "(";
             this.btnLParen.UseVisualStyleBackColor = false;
-            this.btnLParen.Click += new System.EventHandler(this.btnLParen_Click);
+            this.btnLParen.Click += new System.EventHandler(this.btnAbPa_Click);
             // 
             // btnRaiz
             // 
@@ -481,6 +484,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Calculadora";
             this.Text = "Calculadora";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Calculadora_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -523,4 +527,3 @@
         private System.Windows.Forms.Button btnCE;
     }
 }
-
